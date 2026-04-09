@@ -5,6 +5,7 @@ import MethodologySection from "@/components/MethodologySection";
 import ServicesSection from "@/components/ServicesSection";
 import PortfolioSection from "@/components/PortfolioSection";
 import FooterCTA from "@/components/FooterCTA";
+import HubWisa from "@/components/HubWisa";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <MethodologySection />
       <ServicesSection />
       <PortfolioSection />
+      <HubWisa />
       <FooterCTA />
     </div>
   );
